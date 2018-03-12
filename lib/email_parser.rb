@@ -27,10 +27,9 @@ def parse
     @final_email_list = @emails.split(' ')
   else
     @email_list.each do |item|
-      item.split(', ')
-    end
-
+      item.split(' ')
   end
+
 
 
   @final_email_list.uniq
