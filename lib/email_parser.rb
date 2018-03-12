@@ -14,8 +14,8 @@ end
 
 #emails: original string
 #@email: instance string
-#@emails_fragment: a piece of what was split from original
-#@emails_list_items: the newly split email
+#@emails_fragment: a piece of what was split from original, string
+#@emails_list_items: the newly split email array
 #@email_list: final email list array
 
 def parse
