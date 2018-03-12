@@ -14,7 +14,11 @@ def initialize(emails)
 end
 
 def parse(emails)
-  @emails = emails.split(',').split(" ")
+  @emails = emails.split(',')
+
+  if @emails.size < 2
+    @emails = emails.split(' ')
+  end
 
   @emails
 end
