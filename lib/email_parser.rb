@@ -14,7 +14,7 @@ end
 
 def parse
 
-  
+
 
 
 
@@ -28,4 +28,6 @@ def parse_one_iteration(@emails)
   if @email_list.size < 2
     @email_list = @emails.split(' ')
   end
+
+  @email_list
 end
