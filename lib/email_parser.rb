@@ -20,7 +20,7 @@ def parse(@emails)
     @emails_list = emails.split(' ')
   end
 
-  @emails
+  @email_list
 end
 
 end
