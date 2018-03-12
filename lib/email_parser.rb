@@ -16,9 +16,6 @@ def parse
 
 
 
-
-
-
   @email_list.uniq
 end
 
