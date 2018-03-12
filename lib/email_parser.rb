@@ -28,6 +28,7 @@ def parse
   else
     @email_list.each do |item|
       item.split(' ')
+    end
   end
 
 
