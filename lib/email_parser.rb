@@ -18,7 +18,7 @@ def parse
   @email_list = @emails.split(', ')
 
   if @email_list.size < 2
-    @final_email_list = @emails.split(' ')
+    @email_list = @emails.split(' ')
   else
     @email_list.each do |item|
       item.split(' ').each do |item2|
