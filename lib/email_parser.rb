@@ -14,6 +14,7 @@ def initialize(emails)
   self.parse(@emails)
 end
 
-def parse()
+def parse
+end
 
 end
