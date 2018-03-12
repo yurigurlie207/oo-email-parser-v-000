@@ -20,7 +20,11 @@ end
 
 def parse
 
-  @email_list
+  @email_list = @emails.split(', ')
+
+    if @email_list.size < 2
+      @email_list = @emails.split(' ')
+    end
 
   @email_list.uniq
 end
