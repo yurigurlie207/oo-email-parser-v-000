@@ -20,10 +20,10 @@ def parse
   if @email_list.size < 2
     @email_list = @emails.split(' ')
   else
-    @email_list.each do |@item|
-      @item.split(' ').each do |@item2|
-        @email_list.pop(@item)
-        @email_list << @item2
+    @email_list.each do |item|
+      item.split(' ').each do |item2|
+        @email_list.pop(item)
+        @email_list << item2
       end
     end
   end
