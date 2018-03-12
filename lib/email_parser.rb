@@ -31,11 +31,10 @@ def parse
         @email_list.pop(item)
         @email_list << item2
       end
-
     end
   end
 
 
 
-  @final_email_list.uniq
+  @email_list.uniq
 end
