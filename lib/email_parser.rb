@@ -20,10 +20,10 @@ def parse
 end
 
 def parse_one_iteration(@emails)
-  @email_list = @emails.split(', ')
+  @email_lis_item = @emails.split(', ')
 
-  if @email_list.size < 2
-    @email_list = @emails.split(' ')
+  if @email_list_item.size < 2
+    @email_list_item = @emails.split(' ')
   end
 
   @email_list
