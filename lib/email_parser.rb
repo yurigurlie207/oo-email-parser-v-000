@@ -19,6 +19,7 @@ end
 #@email_list: final email list array
 
 def parse
+  @parsed = 0
 
   #first do a first pass of splitting the string
   @email_list = @emails.split(', ')
@@ -28,10 +29,10 @@ def parse
   end
 
   #now, put the new array into a loop that will continuous split it's subelements
-  while parsed == 0 
+  while parsed == 0
 
 
-  end 
+  end
 
 
 
