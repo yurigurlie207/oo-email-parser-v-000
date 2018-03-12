@@ -7,7 +7,7 @@ require 'pry'
 class EmailParser
 
  attr_accessor :emails, :email_list
- @parsed
+ @parsed = 0
 
 def initialize(emails)
   @emails = emails
@@ -20,7 +20,6 @@ end
 #@email_list: final email list array
 
 def parse
-  @parsed = 0
 
   #first do a first pass of splitting the string
   @email_list = @emails.split(', ')
