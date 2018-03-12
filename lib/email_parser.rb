@@ -19,7 +19,8 @@ def parse
   @email_list.uniq
 end
 
-def parse_one_iteration(@emails)
+def parse_one_iteration(@emails_fragment)
+
   @email_lis_item = @emails.split(', ')
 
   if @email_list_item.size < 2
