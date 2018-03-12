@@ -28,5 +28,6 @@ def parse
     end
   end
 
+
   @email_list.uniq
 end
