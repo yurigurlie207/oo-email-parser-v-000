@@ -13,7 +13,6 @@ def initialize(emails)
 end
 
 
-
 def parse
 
   @email_list = @emails.split(', ')
