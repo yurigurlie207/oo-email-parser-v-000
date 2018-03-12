@@ -12,6 +12,11 @@ def initialize(emails)
   @emails = emails
 end
 
+#emails: original string
+#@email: instance string
+#@emails_fragment: a piece of what was split from original
+#@emails_list_items: the newly split email 
+
 def parse
 
   @email_list
