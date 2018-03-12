@@ -6,8 +6,7 @@ require 'pry'
 
 class EmailParser
 
- attr_accessor :emails, :email_list
- @parsed = 0
+ attr_accessor :emails, :email_list, :final_email_list
 
 def initialize(emails)
   @emails = emails
@@ -29,6 +28,7 @@ def parse
   end
 
   @email_list.each do |item|
+    item.split(', ')
   end
 
   @email_list.uniq
