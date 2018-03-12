@@ -10,10 +10,10 @@ class EmailParser
 
 def initialize(emails)
   @emails = emails
-  self.parse(emails)
+  self.parse
 end
 
-def parse(emails)
+def parse
   @email_list = emails.split(',')
 
   if @email_list.size < 2
