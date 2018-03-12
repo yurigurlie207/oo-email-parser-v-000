@@ -20,6 +20,7 @@ class EmailParser
     @email_list.each do |item|
       item.strip!
     end
+    
     @email_list.uniq
   end
 
