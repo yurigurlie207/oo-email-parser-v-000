@@ -21,10 +21,10 @@ end
 
 def parse_one_iteration(@emails_fragment)
 
-  @email_lis_item = @emails.split(', ')
+  @email_lis_items = @emails_fragment.split(', ')
 
-  if @email_list_item.size < 2
-    @email_list_item = @emails.split(' ')
+  if @email_list_items.size < 2
+    @email_list_items = @emails_fragment.split(' ')
   end
 
   @email_list
