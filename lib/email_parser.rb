@@ -14,14 +14,14 @@ end
 
 def parse
 
-
+  @email_list
 
   @email_list.uniq
 end
 
 def parse_one_iteration(@emails_fragment)
 
-  @email_lis_items = @emails_fragment.split(', ')
+  @email_list_items = @emails_fragment.split(', ')
 
   if @email_list_items.size < 2
     @email_list_items = @emails_fragment.split(' ')
