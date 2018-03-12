@@ -27,5 +27,5 @@ def parse_one_iteration(@emails_fragment)
     @email_list_items = @emails_fragment.split(' ')
   end
 
-  @email_list
+  @email_list_items
 end
