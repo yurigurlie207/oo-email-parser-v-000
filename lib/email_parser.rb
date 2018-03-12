@@ -20,7 +20,6 @@ end
 
 def parse
 
-  #first do a first pass of splitting the string
   @email_list = @emails.split(', ')
 
   if @email_list.size < 2
