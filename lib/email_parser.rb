@@ -28,24 +28,8 @@ def parse
     @email_list = @emails.split(' ')
   end
 
-  #now, put the new array into a loop that will continuous split it's subelements
-  while parsed == 0
-
-
+  @email_list.each do |item|
   end
-
-
 
   @email_list.uniq
-end
-
-def parse_one_iteration(@emails_fragment)
-
-  @email_list_items = @emails_fragment.split(', ')
-
-  if @email_list_items.size < 2
-    @email_list_items = @emails_fragment.split(' ')
-  end
-
-  @email_list_items
 end
