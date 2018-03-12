@@ -22,13 +22,20 @@ def parse
 
   #first do a first pass of splitting the string
   @email_list = @emails.split(', ')
-  
+
   if @email_list.size < 2
     @email_list = @emails.split(' ')
-  elsif 
+    
+    @email_list.each do |item|
+      item.split(', ')
+    end
+  elsif
+    @email_list.each do |item|
+      item.split(', ')
+    end
 
   end
-    
+
 
 
 
