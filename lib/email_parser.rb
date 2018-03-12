@@ -27,7 +27,11 @@ def parse
     @final_email_list = @emails.split(' ')
   else
     @email_list.each do |item|
-      item.split(' ')
+      item.split(' ').each do |item2|
+        @email_list.pop(item)
+        @email_list << item2
+      end
+
     end
   end
 
