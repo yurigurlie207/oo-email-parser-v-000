@@ -12,7 +12,7 @@ def initialize(emails)
   @emails = emails
 end
 
-def parse
+def parse(emails)
   @email_list = emails.split(',')
 
   if @email_list.size < 2
