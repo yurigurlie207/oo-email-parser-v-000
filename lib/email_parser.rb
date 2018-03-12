@@ -5,6 +5,7 @@
 require 'pry'
 
 class EmailParser
-
+ attr_accessor :email
+ @@emails = []
 
 end
