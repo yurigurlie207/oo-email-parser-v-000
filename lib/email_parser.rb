@@ -6,17 +6,13 @@ require 'pry'
 
 class EmailParser
 
- attr_accessor :emails, :email_list, :final_email_list
+ attr_accessor :emails, :email_list
 
 def initialize(emails)
   @emails = emails
 end
 
-#emails: original string
-#@email: instance string
-#@emails_fragment: a piece of what was split from original, string
-#@emails_list_items: the newly split email array
-#@email_list: final email list array
+
 
 def parse
 
